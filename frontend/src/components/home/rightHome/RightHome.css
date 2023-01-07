@@ -1,0 +1,47 @@
+.right_home {
+  position: absolute;
+  left: 65vw;
+  top: 35%;
+  width: 30vw;
+}
+
+.right_home_text {
+  font-family: "Modak", cursive;
+  font-size: 60px;
+  color: #fff;
+  width: 100%;
+}
+
+.right_home_input {
+  position: relative;
+  top: 10px;
+  left: 10px;
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right_home_input input {
+  border: 1px solid #fff;
+  background: var(--bg-primary);
+  width: 100%;
+  height: 50px;
+  font-size: 17px;
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-bottom: 10px;
+  color: bisque;
+}
+
+.right_home_input input::placeholder {
+  color: bisque;
+}
+
+.right_home_input svg {
+  position: absolute;
+  top: 15px;
+  right: 10px;
+  width: 25px;
+  height: 25px;
+}

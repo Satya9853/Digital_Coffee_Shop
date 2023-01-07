@@ -1,0 +1,7 @@
+.home {
+  min-height: 100vh;
+  background: url(../../../public/images/background.jpg) no-repeat center fixed;
+  background-size: cover;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
