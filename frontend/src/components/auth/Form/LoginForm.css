@@ -1,0 +1,79 @@
+.auth_parent_background {
+  background: url(../../../../public/images/auth-background.jpg);
+  width: 100%;
+  height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.auth_parent_background::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  backdrop-filter: blur(5px);
+}
+
+.is_opaque {
+  opacity: 60%;
+}
+
+.auth_child_background {
+  background: rgba(255, 255, 255, 0.35);
+  position: absolute;
+  top: 20rem;
+  left: 10rem;
+  width: 400px;
+  height: 500px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.auth_child_background input {
+  width: 75%;
+  height: 40px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+  border: none;
+  outline: none;
+}
+
+.log_in_button {
+  position: absolute;
+  top: 65%;
+  left: 35%;
+  width: 120px;
+  height: 50px;
+  border-radius: 10px;
+  background: #413f42;
+  color: white;
+  border: none;
+}
+.sign_in_text {
+  position: absolute;
+  top: 78%;
+  left: 10%;
+  font-weight: bold;
+}
+
+.sign_in_text span {
+  color: aqua;
+}
+
+.sign_in_text span:hover {
+  color: purple;
+  text-decoration: underline;
+}
+
+.auth_header {
+  position: absolute;
+  top: 10%;
+  left: 32%;
+  font-size: 40px;
+  font-weight: 800;
+  color: black;
+}
