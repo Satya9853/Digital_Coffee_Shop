@@ -1,0 +1,59 @@
+.signup_background {
+  background: rgba(255, 255, 255, 0.681);
+  position: absolute;
+  top: 25%;
+  left: 42%;
+  width: 400px;
+  height: 600px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.signup_background input {
+  top: 10px;
+  position: relative;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-left: 45px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.signup_button {
+  position: relative;
+  top: 20px;
+  left: 35%;
+  width: 120px;
+  height: 50px;
+  border-radius: 10px;
+  background: #413f42;
+  color: white;
+  border: none;
+}
+
+.signup_button:hover {
+  background-color: #191819;
+  cursor: pointer;
+}
+
+.login_text {
+  position: relative;
+  top: 40px;
+  left: 92px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.login_text span {
+  color: aqua;
+}
+
+.login_text span:hover {
+  color: purple;
+  text-decoration: underline;
+}

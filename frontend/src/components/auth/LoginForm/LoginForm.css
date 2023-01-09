@@ -1,0 +1,68 @@
+.login_background {
+  background: rgba(255, 255, 255, 0.681);
+  position: absolute;
+  top: 25%;
+  left: 42%;
+  width: 400px;
+  height: 450px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.login_background input {
+  position: relative;
+  top: -20px;
+  width: 300px;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 45px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+.log_in_button {
+  position: relative;
+  top: 5px;
+  left: 35%;
+  width: 120px;
+  height: 50px;
+  border-radius: 10px;
+  background: #413f42;
+  color: white;
+  border: none;
+}
+
+.log_in_button:hover {
+  background-color: #191819;
+  cursor: pointer;
+}
+
+.sign_up_text {
+  position: relative;
+  top: 25px;
+  left: 50px;
+  font-weight: bold;
+}
+
+.sign_up_text span {
+  cursor: pointer;
+  color: aqua;
+}
+
+.sign_up_text span:hover {
+  color: purple;
+  text-decoration: underline;
+}
+
+.auth_header {
+  position: absolute;
+  top: 2rem;
+  left: 7.1rem;
+  font-size: 40px;
+  font-weight: 800;
+  color: black;
+}
