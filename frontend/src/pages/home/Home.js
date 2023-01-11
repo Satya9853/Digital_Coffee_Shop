@@ -1,18 +1,20 @@
 import { Fragment, useState } from "react";
-import InfoCard from "../../components/Info/InfoCard";
+import HistoryCard from "../../components/Info/HistoryCard";
 import RightHome from "../../components/home/rightHome/RightHome";
 
 import "./Home.css";
 
 const Home = () => {
-  const [showInfo, setShowInfo] = useState(false);
-  const [coffeeInfo, setCoffeeInfo] = useState("");
+  const [showHistory, setShowHistory] = useState(false);
+  const [coffeeHistory, setCoffeeHistory] = useState("");
 
   return (
     <Fragment>
       <div className="home">
-        {showInfo && coffeeInfo && <InfoCard coffeeInfo={coffeeInfo} setShowInfo={setShowInfo} setCoffeeInfo />}
-        <RightHome setShowInfo={setShowInfo} setCoffeeInfo={setCoffeeInfo} />
+        {showHistory && coffeeHistory && (
+          <HistoryCard coffeeHistory={coffeeHistory} setCoffeeHistory={setCoffeeHistory} setShowHistory={setShowHistory} />
+        )}
+        <RightHome setShowHistory={setShowHistory} setCoffeeHistory={setCoffeeHistory} />
       </div>
     </Fragment>
   );

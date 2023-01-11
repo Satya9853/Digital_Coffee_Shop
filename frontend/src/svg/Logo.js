@@ -2,8 +2,8 @@ import React from "react";
 
 const Logo = () => {
   return (
-    <svg fill="#db8f39" height="800px" width="800px" viewBox="0 0 107.145 107.145">
-      <g id="SVGRepo_bgCarrier" stroke-width="0" />
+    <svg fill="#db8f39" height="40px" width="40px" viewBox="0 0 107.145 107.145">
+      <g id="SVGRepo_bgCarrier" strokeWidth="10" />
 
       <g id="SVGRepo_iconCarrier">
         <g>

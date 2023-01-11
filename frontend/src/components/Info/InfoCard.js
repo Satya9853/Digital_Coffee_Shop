@@ -4,7 +4,6 @@ import "./InfoCard.css";
 import useClickOutside from "../hooks/useClickOutside-hook";
 
 const InfoCard = ({ coffeeInfo, setShowInfo, setCoffeeInfo }) => {
-  console.log(coffeeInfo);
   const InfoRef = useRef(null);
   const ingredients = coffeeInfo.ingredients.join(",");
 
@@ -17,7 +16,7 @@ const InfoCard = ({ coffeeInfo, setShowInfo, setCoffeeInfo }) => {
       <div className="card_wrap">
         <div className="recipe-card" ref={InfoRef}>
           <aside>
-            <img src={coffeeInfo.image} alt="Chai Oatmeal" />
+            <img src={coffeeInfo.image} alt={coffeeInfo.title} />
           </aside>
           <article>
             <h2>{coffeeInfo.title}</h2>
