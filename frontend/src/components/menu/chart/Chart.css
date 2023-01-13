@@ -1,0 +1,47 @@
+.blur {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.chart_wrap {
+  width: 60vw;
+  height: 80vh;
+  background: #2c3333;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+  border: 1px solid #ffb26b;
+}
+
+.chart {
+  background: url(../../../../public/images/coffee-drinks-scaled.jpg);
+  background-repeat: no-repeat;
+  background-size: 300px;
+  width: 400px;
+  height: 100vh;
+  left: -1rem;
+  top: 7rem;
+  position: relative;
+}
+
+.chart_header {
+  position: relative;
+  bottom: 15rem;
+  left: 5.5rem;
+  font-size: 80px;
+  width: 500px;
+  height: 50px;
+  color: #ffb26b;
+  font-family: "Dancing Script", cursive;
+}
+
+.chart_text {
+  width: 600px;
+  position: relative;
+  right: 18rem;
+  font-size: 22px;
+  color: #fff;
+  text-align: justify;
+}

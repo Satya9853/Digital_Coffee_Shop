@@ -1,0 +1,17 @@
+.menu {
+  background: #212121;
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 10vw 1fr;
+}
+
+.item_wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  align-items: center;
+  margin-top: 100px;
+  margin-left: 250px;
+  padding-bottom: 30px;
+  row-gap: 200px;
+}

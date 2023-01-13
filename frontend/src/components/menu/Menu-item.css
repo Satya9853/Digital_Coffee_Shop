@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap");
+
+.info_container {
+  width: 250px;
+  height: 470px;
+  border-radius: 2rem;
+  border: solid #ffb26b;
+}
+
+.info_container:hover > .info_card {
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+
+.info_card {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  transition: transform 1500ms;
+  transform-style: preserve-3d;
+}
+
+.info_card_front,
+.info_card_back {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.info_card_front img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2rem;
+}
+
+.info_front_header {
+  position: absolute;
+  background: #191a19;
+  top: 0px;
+  right: 2rem;
+  height: 100%;
+  width: 90px;
+}
+
+.info_front_header span {
+  position: relative;
+  top: 12rem;
+  display: block;
+  transform: rotate(-90deg);
+  font-size: 34px;
+  font-family: "Dancing Script", cursive;
+  width: 300px;
+  right: 6.5rem;
+  color: #ffb26b;
+}
+
+.info_card_back {
+  background: #191a19;
+  transform: rotateY(180deg);
+  border-radius: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.info_card_back_item span {
+  position: relative;
+  top: -5px;
+  left: 1rem;
+  font-size: 15px;
+  padding: 20px 10px;
+  color: #ffb26b;
+}
+
+.split-line {
+  position: relative;
+  width: 100%;
+  height: 2px;
+  background: #fff;
+  top: 4rem;
+}
+
+/* Button */
+.info_back_button_container {
+  position: relative;
+  top: -1.2rem;
+  left: 7rem;
+  height: 50px;
+  width: 130px;
+}
+
+.info_back_button {
+  background: transparent;
+  height: 50px;
+  width: 130px;
+  border: none;
+  color: #fff;
+  border-radius: 4px;
+  transition: ease-out 0.3s;
+  font-size: 1rem;
+  outline: none;
+  border: 3px solid #ffb26b;
+  position: relative;
+  z-index: 1;
+}
+.info_back_button:hover {
+  color: #fff;
+  cursor: pointer;
+}
+
+.info_back_button::before {
+  transition: 0.5s all ease;
+  opacity: 0;
+  content: "";
+  background-color: #ffb26b;
+  position: absolute;
+  left: 50%;
+  right: 50%;
+  top: 0;
+  bottom: 0;
+}
+
+.info_back_button:hover::before {
+  transition: 0.5s all ease;
+  left: 0;
+  right: 0;
+  opacity: 1;
+  z-index: -1;
+}
+
+.info_back_button_container svg {
+  position: relative;
+  left: 5px;
+  top: 5px;
+}
+/* Button */
+.info_card_back_item {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px 0px 0px 20px;
+}
+
+.info_card_back_description {
+  position: relative;
+  bottom: 3rem;
+  width: 220px;
+}
+
+.info_card_back_description p {
+  position: absolute;
+  top: 3.5rem;
+  left: 0.5rem;
+  width: 90%;
+  padding: 0px 20px 0px 20px;
+  font-size: 16px;
+  color: #ffb26b;
+}

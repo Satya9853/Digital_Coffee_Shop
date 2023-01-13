@@ -1,0 +1,32 @@
+.option_wrapper {
+  position: relative;
+  top: 4rem;
+  border: 2px solid #ffb26b;
+  height: 100vh;
+  border-top: none;
+  border-left: none;
+  left: 0.5rem;
+}
+
+.option_item {
+  position: relative;
+  top: 10px;
+  border: none;
+  background-color: #ffb26b;
+  width: 95%;
+  height: 40px;
+  border-radius: 10px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.option_item:hover > span {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.option_item span {
+  font-size: 18px;
+  font-weight: 600;
+}

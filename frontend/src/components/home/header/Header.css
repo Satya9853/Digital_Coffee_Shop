@@ -3,7 +3,7 @@ header {
   top: 0;
   height: 56px;
   z-index: 99;
-  background: #562b08;
+  background: #ffb26b;
   width: 100%;
   box-shadow: 1px 8px 15px -7px var(--shadow-2);
   display: grid;
@@ -39,8 +39,9 @@ header {
   width: 100%;
   position: absolute;
   left: 115%;
-  font-family: "Modak", cursive;
+  font-family: "Dancing Script", cursive;
   font-size: 60px;
+  color: #fff;
 }
 
 .header_right {
