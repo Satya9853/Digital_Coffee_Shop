@@ -1,7 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap');
+
+
 .home {
   min-height: 100vh;
-  background: url(../../../public/images/background.jpg) no-repeat center fixed;
+  background: #212121;
   background-size: cover;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.coffee-beans-image1{
+  background: url(../../../public/images/coffee-beans.png);
+  background-size: cover;
+  width: 500px;
+  height: 400px;
+  position: fixed;
+  top: -5rem;
+  left: -10rem;
+  border: none;
+  outline: none;
+  transform: rotate(10deg);
+}
+
+.coffee-beans-image2{
+  background: url(../../../public/images/coffee-tree.png);
+  background-size: cover;
+  width: 200px;
+  height: 250px;
+  position: fixed;
+  top: 23rem;
+  right: 0rem;
+  border: none;
+  outline: none;
+}
+
+.left-home{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-home-text{
+  position: relative;
+  top: 5rem;
+  width: 100%;
+  height: 500px;
+  font-family: 'Noto Serif', serif;
+  line-height: 80px;
+
+}
+
+.left-home-text span:nth-child(1){
+  color: #fff;
+  font-size: 30px;
+  position: relative;
+  left: 18rem;
+  letter-spacing: 5px;
+}
+
+.left-home-text span:nth-child(3){
+  color: #ffb26b;
+  font-size: 90px;
+  position: relative;
+  left: 2rem;
+}
+
+.left-home-text span:nth-child(5){
+  color: #fff;
+  font-size: 30px;
+  position: relative;
+  left: 11rem;
+  letter-spacing: 5px;
+
+
+}
+
+.left-home-text span:nth-child(7){
+  color: #ffb26b;
+  font-size: 90px;
+  position: relative;
+  left:-2rem;
 }
